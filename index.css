@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Gotham";
+  src: url('resources/fonts/GothamBold.ttf') format('truetype');
+}
+
+* {
+  font-family: Gotham;
+}
+
+/* removes gaps between sections */
+h1, h3, p, div{
+  margin: 0;
+}
+
+/* wrapper div makes the content full screen */
+#wrapper-div {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+#title-div {
+  background-color: #B59BC8;
+  height: 900px;
+}
+
+h1 {
+  line-height: 0.85;
+  letter-spacing: -6px;
+  font-size: 130px;
+  color: #F9E829;
+  text-align: left;
+  position: absolute;
+  top: 200px;
+  left: 10%;
+}
+
+h1 span {
+  font-size: 70px;
+  letter-spacing: -8px;
+}
+
+h2 {
+  line-height: 0.8;
+  letter-spacing: -3px;
+  font-size: 60px;
+  color: #2C45B9;
+  text-align: right;
+  position: absolute;
+  top: 400px;
+  right: 15%;
+}
+
+h2 span {
+  font-size: 37px;
+  letter-spacing: -1px;
+}
+
+#title-img-gino {
+  z-index: 1;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 130px;
+  right: 15%;
+}
+
+#title-img-gino-background {
+  background-color: #F9E829;
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: calc(130px - 20px);
+  right: calc(15% - 20px);
+}
+
+#title-img-jackson {
+  z-index: 1;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 530px;
+  right: 15%;
+}
+
+#title-img-jackson-background {
+  background-color: #2C45B9;
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: calc(530px - 20px);
+  right: calc(15% - 20px);
+}
+
+#intro-div {
+  background-color: #2C45B9;
+}
+
