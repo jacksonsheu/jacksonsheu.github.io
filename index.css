@@ -5,10 +5,6 @@
 
 * {
   font-family: Gotham;
-}
-
-/* removes gaps between sections */
-h1, h3, p, div{
   margin: 0;
 }
 
@@ -25,7 +21,7 @@ h1, h3, p, div{
   height: 900px;
 }
 
-h1 {
+#title-div h1 {
   line-height: 0.85;
   letter-spacing: -6px;
   font-size: 130px;
@@ -36,23 +32,23 @@ h1 {
   left: 10%;
 }
 
-h1 span {
+#title-div h1 span {
   font-size: 70px;
   letter-spacing: -8px;
 }
 
-h2 {
+#title-div h2 {
   line-height: 0.8;
   letter-spacing: -3px;
   font-size: 60px;
   color: #2C45B9;
   text-align: right;
   position: absolute;
-  top: 400px;
+  top: 450px;
   right: 15%;
 }
 
-h2 span {
+#title-div h2 span {
   font-size: 37px;
   letter-spacing: -1px;
 }
