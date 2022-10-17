@@ -80,8 +80,8 @@ h2 span {
   width: 160px;
   height: 160px;
   position: absolute;
-  top: 530px;
-  right: 15%;
+  top: 600px;
+  left: 15%;
 }
 
 #title-img-jackson-background {
@@ -89,8 +89,8 @@ h2 span {
   height: 160px;
   width: 160px;
   position: absolute;
-  top: calc(530px - 20px);
-  right: calc(15% - 20px);
+  top: calc(600px - 20px);
+  left: calc(15% + 20px);
 }
 
 #intro-div {
