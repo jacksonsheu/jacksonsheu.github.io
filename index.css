@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 @font-face {
   font-family: "Gotham";
   src:
@@ -11,7 +13,7 @@
 }
 
 * {
-  font-family: Gotham, 'Times New Roman', Times, serif;
+  font-family: Fredoka One, 'Times New Roman', Times, serif;
   margin: 0;
 }
 
@@ -102,4 +104,5 @@ body {
 
 #intro-div {
   background-color: #2C45B9;
+  height: 900px;
 }
