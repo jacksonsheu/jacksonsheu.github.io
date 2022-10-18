@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Gotham";
-  src: url('resources/fonts/GothamBold.ttf') format('truetype');
+  src: url('resources/fonts/GothamBold.ttf') format('truetype'),
+    url('resources/fonts/Gotham-Bold.otf') format('opentype');
 }
 
 * {
@@ -92,4 +93,3 @@
 #intro-div {
   background-color: #2C45B9;
 }
-
