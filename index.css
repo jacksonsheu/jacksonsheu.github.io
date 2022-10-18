@@ -2,6 +2,8 @@
   font-family: "Gotham";
   src: url('resources/fonts/GothamBold.ttf') format('truetype'),
     url('resources/fonts/Gotham-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 * {
