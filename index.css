@@ -33,7 +33,6 @@ body {
   background-color: #B59BC8;
   height: 900px;
 }
-
 #title-div h1 {
   line-height: 0.85;
   /* letter-spacing: -6px; */
@@ -44,12 +43,10 @@ body {
   top: 200px;
   left: 10%;
 }
-
 #title-div h1 span {
   font-size: 70px;
   /* letter-spacing: -8px; */
 }
-
 #title-div h2 {
   line-height: 0.8;
   /* letter-spacing: -3px; */
@@ -60,12 +57,10 @@ body {
   top: 450px;
   right: 15%;
 }
-
 #title-div h2 span {
   font-size: 37px;
   /* letter-spacing: -1px; */
 }
-
 #title-img-gino {
   z-index: 1;
   width: 160px;
@@ -74,7 +69,6 @@ body {
   top: 130px;
   right: 15%;
 }
-
 #title-img-gino-background {
   background-color: #F9E829;
   height: 160px;
@@ -83,7 +77,6 @@ body {
   top: calc(130px - 20px);
   right: calc(15% - 20px);
 }
-
 #title-img-jackson {
   z-index: 1;
   width: 160px;
@@ -92,7 +85,6 @@ body {
   top: 600px;
   left: 15%;
 }
-
 #title-img-jackson-background {
   background-color: #2C45B9;
   height: 160px;
@@ -104,5 +96,66 @@ body {
 
 #intro-div {
   background-color: #2C45B9;
-  height: 900px;
+  height: 650px;
+  position: relative;
+}
+#intro-text {
+  color: #92EBD9;
+  font-size: 30px;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 300px;
+}
+#intro-img-1 {
+  width: 270px;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  left: 8%;
+}
+#intro-img-2 {
+  z-index: 1;
+  width: 230px;
+  height: auto;
+  position: absolute;
+  bottom: -100px;
+  right: 10%;
+}
+
+
+#intro-2-div {
+  background-color: #B59BC8;
+  height: 480px;
+  position: relative;
+}
+#intro-2-text {
+  color: #F9E829;
+  font-size: 32px;
+  width: 60%;
+  position: absolute;
+  left: 25%;
+  top: 150px;
+}
+#intro-2-img {
+  z-index: 1;
+  width: 190px;
+  height: auto;
+  position: absolute;
+  bottom: -100px;
+  left: 10%;
+}
+
+#intro-3-div {
+  background-color: #016450;
+  height: 500px;
+  position: relative;
+}
+#intro-3-text {
+  color: #F7CDC8;
+  font-size: 32px;
+  width: 70%;
+  position: absolute;
+  left: 17%;
+  top: 150px;
 }
