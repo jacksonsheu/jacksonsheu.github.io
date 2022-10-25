@@ -33,6 +33,7 @@ body {
   background-color: #B59BC8;
   height: 900px;
 }
+
 #title-div h1 {
   line-height: 0.85;
   /* letter-spacing: -6px; */
@@ -43,10 +44,12 @@ body {
   top: 200px;
   left: 10%;
 }
+
 #title-div h1 span {
   font-size: 70px;
   /* letter-spacing: -8px; */
 }
+
 #title-div h2 {
   line-height: 0.8;
   /* letter-spacing: -3px; */
@@ -57,10 +60,12 @@ body {
   top: 450px;
   right: 15%;
 }
+
 #title-div h2 span {
   font-size: 37px;
   /* letter-spacing: -1px; */
 }
+
 #title-img-gino {
   z-index: 1;
   width: 160px;
@@ -69,6 +74,7 @@ body {
   top: 130px;
   right: 15%;
 }
+
 #title-img-gino-background {
   background-color: #F9E829;
   height: 160px;
@@ -77,6 +83,7 @@ body {
   top: calc(130px - 20px);
   right: calc(15% - 20px);
 }
+
 #title-img-jackson {
   z-index: 1;
   width: 160px;
@@ -85,6 +92,7 @@ body {
   top: 600px;
   left: 15%;
 }
+
 #title-img-jackson-background {
   background-color: #2C45B9;
   height: 160px;
@@ -99,6 +107,7 @@ body {
   height: 650px;
   position: relative;
 }
+
 #intro-text {
   color: #92EBD9;
   font-size: 30px;
@@ -107,6 +116,7 @@ body {
   left: 10%;
   top: 300px;
 }
+
 #intro-img-1 {
   width: 270px;
   height: auto;
@@ -114,6 +124,7 @@ body {
   top: 50px;
   left: 8%;
 }
+
 #intro-img-2 {
   z-index: 1;
   width: 230px;
@@ -129,6 +140,7 @@ body {
   height: 480px;
   position: relative;
 }
+
 #intro-2-text {
   color: #F9E829;
   font-size: 32px;
@@ -137,6 +149,7 @@ body {
   left: 25%;
   top: 150px;
 }
+
 #intro-2-img {
   z-index: 1;
   width: 190px;
@@ -148,9 +161,10 @@ body {
 
 #intro-3-div {
   background-color: #016450;
-  height: 500px;
+  height: 400px;
   position: relative;
 }
+
 #intro-3-text {
   color: #F7CDC8;
   font-size: 32px;
@@ -158,4 +172,394 @@ body {
   position: absolute;
   left: 17%;
   top: 150px;
+}
+
+#date-div {
+  background-color: #B59BC8;
+  height: 1200px;
+  position: relative;
+}
+
+#date-text {
+  color: #F9E829;
+  font-size: 64px;
+  width: 80%;
+  position: absolute;
+  left: 12%;
+  top: 250px;
+  line-height: 0.7;
+}
+
+#date-span {
+  font-size: 30px;
+}
+
+#date-img-1 {
+  z-index: 1;
+  width: 235px;
+  height: auto;
+  position: absolute;
+  top: -35px;
+  right: 10%;
+}
+
+#date-img-2 {
+  z-index: 1;
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 400px;
+  left: 9%;
+}
+
+#date-img-3 {
+  z-index: 1;
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 770px;
+  right: 15%;
+}
+
+#sweater-div {
+  background-color: #F7CDC8;
+  height: 900px;
+  position: relative;
+}
+
+#sweater-text {
+  color: #FF74A6;
+  font-size: 60px;
+  width: 80%;
+  position: absolute;
+  left: 12%;
+  top: 350px;
+  line-height: 0.9;
+}
+
+#sweater-img-1 {
+  z-index: 1;
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  left: 10%;
+}
+
+#sweater-img-2 {
+  z-index: 1;
+  width: 285px;
+  height: auto;
+  position: absolute;
+  top: 510px;
+  right: 7%;
+}
+
+#arts-div {
+  background-color: #50364F;
+  height: 1150px;
+  position: relative;
+}
+
+#arts-text {
+  color: #FFFFFF;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 270px;
+}
+
+#arts-img-1 {
+  z-index: 1;
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: -50px;
+  left: 14%;
+}
+
+#arts-img-2 {
+  z-index: 1;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 370px;
+  right: 10%;
+}
+
+#arts-img-3 {
+  z-index: 1;
+  width: 215px;
+  height: auto;
+  position: absolute;
+  top: 600px;
+  left: 9%;
+}
+
+#arts-mp4 {
+  z-index: 1;
+  width: 215px;
+  height: auto;
+  position: absolute;
+  top: 870px;
+  right: 15%;
+}
+
+#cooking-div {
+  background-color: #B59BC8;
+  height: 910px;
+  position: relative;
+}
+
+#cooking-text {
+  color: #2C45B9;
+  font-size: 50px;
+  width: 85%;
+  position: absolute;
+  left: 12%;
+  top: 100px;
+  line-height: 0.9;
+}
+
+#cooking-img-1 {
+  z-index: 1;
+  width: 190px;
+  height: auto;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  margin-left: -135px;
+}
+
+#cooking-img-2 {
+  z-index: 2;
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 540px;
+  right: 50%;
+  margin-right: -150px;
+}
+
+#concerts-div {
+  background-color: #016450;
+  height: 1430px;
+  position: relative;
+}
+
+#concerts-text {
+  color: #F7CDC8;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 60px;
+}
+
+#concerts-mp4-1 {
+  z-index: 1;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -135px;
+}
+
+#concerts-img-1 {
+  z-index: 2;
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 460px;
+  right: 50%;
+  margin-right: -160px;
+}
+
+#concerts-img-2 {
+  width: 267px;
+  height: auto;
+  position: absolute;
+  top: 730px;
+  left: 10%;
+}
+
+#concerts-mp4-2 {
+  z-index: 1;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 1120px;
+  right: 10%;
+}
+
+#adventure-div {
+  background-color: #2C45B9;
+  height: 2040px;
+  position: relative;
+}
+
+#adventure-text {
+  color: #92EBD9;
+  font-size: 45px;
+  width: 85%;
+  position: absolute;
+  left: 10%;
+  top: 100px;
+  line-height: 0.9;
+}
+
+#adventure-img-1 {
+  z-index: 1;
+  width: 254px;
+  height: auto;
+  position: absolute;
+  top: 270px;
+  left: 50%;
+  margin-left: -155px;
+}
+
+#adventure-img-2 {
+  z-index: 2;
+  width: 210px;
+  height: auto;
+  position: absolute;
+  top: 580px;
+  right: 50%;
+  margin-right: -160px;
+}
+
+#adventure-img-3 {
+  width: 254px;
+  height: auto;
+  position: absolute;
+  top: 870px;
+  right: 12%;
+}
+
+#adventure-mp4-1 {
+  width: 190px;
+  height: auto;
+  position: absolute;
+  top: 1230px;
+  left: 9%;
+}
+
+#adventure-img-4 {
+  width: 230px;
+  height: auto;
+  position: absolute;
+  top: 1520px;
+  right: 8%;
+}
+
+#adventure-img-5 {
+  z-index: 1;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 1850px;
+  left: 9%;
+}
+
+#lastbutnotleast-div {
+  background-color: #B59BC8;
+  height: 900px;
+  position: relative;
+}
+
+#lastbutnotleast-text {
+  color: #F9E829;
+  font-size: 45px;
+  width: 85%;
+  position: absolute;
+  left: 15%;
+  top: 200px;
+  line-height: 0.9;
+}
+
+#cuddles-div {
+  background-image: url(resources/images/cuddles.jpg);
+  height: 500px;
+  position: relative;
+}
+
+#cuddles-text {
+  color: #FFFFFF;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  line-height: 0.9;
+}
+
+#conclusion-div {
+  background-color: #50364F;
+  height: 1500px;
+  position: relative;
+}
+
+#conclusion-text-1 {
+  color: #FFFFFF;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  line-height: 0.9;
+}
+
+#conclusion-text-2 {
+  color: #FFFFFF;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 900px;
+  line-height: 0.9;
+}
+
+#question-div {
+  background-color: #B59BC8;
+  height: 1000px;
+  position: relative;
+}
+
+#question-text {
+  color: #2C45B9;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  line-height: 0.9;
+}
+
+button {
+  height: 70px;
+  width: 110px;
+  font-size: 25px;
+  background-color: #F9E829;
+  color: #2C45B9;
+  border-radius: 13px;
+}
+
+button:active {
+  background: olive;
+}
+
+#yes-button {
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  margin-left: -125px;
+}
+
+#no-button {
+  position: absolute;
+  top: 320px;
+  right: 50%;
+  margin-right: -125px;
 }

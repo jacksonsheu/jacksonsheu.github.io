@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>To Gino</title>
+    <title>project</title>
     <link href="index.css" type="text/css" rel="stylesheet">
 </head>
 
@@ -35,7 +35,93 @@
             <p id="intro-3-text">here are some of my favorite memories of us:</p>
         </div>
 
+        <div id="date-div">
+            <img id="date-img-1" src="resources/images/date_1.jpg">
+            <p id="date-text">first date<br><span id="date-span">kinda nervous</span></p>
+            <img id="date-img-2" src="resources/images/date_2.jpg">
+            <img id="date-img-3" src="resources/images/date_3.jpg">
+        </div>
 
+        <div id="sweater-div">
+            <img id="sweater-img-1" src="resources/images/sweater_1.jpg">
+            <p id="sweater-text">stealing<br>sweaters</p>
+            <img id="sweater-img-2" src="resources/images/sweater_2.jpg">
+        </div>
+
+        <div id="arts-div">
+            <img id="arts-img-1" src="resources/images/arts_1.jpg">
+            <p id="arts-text">arts n crafts</p>
+            <img id="arts-img-2" src="resources/images/arts_2.jpg">
+            <img id="arts-img-3" src="resources/images/arts_3.jpg">
+            <video autoplay muted loop id="arts-mp4">
+                <source src="resources/images/arts.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="cooking-div">
+            <img id="cooking-img-1" src="resources/images/cooking_1.jpg">
+            <p id="cooking-text">when you (finally) cooked for me</p>
+            <img id="cooking-img-2" src="resources/images/cooking_2.jpg">
+        </div>
+
+        <div id="concerts-div">
+            <video autoplay muted loop id="concerts-mp4-1">
+                <source src="resources/images/concerts_mp4_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p id="concerts-text">concerts!</p>
+            <img id="concerts-img-1" src="resources/images/concerts_1.jpg">
+            <img id="concerts-img-2" src="resources/images/concerts_2.jpg">
+            <video autoplay muted loop id="concerts-mp4-2">
+                <source src="resources/images/concerts_mp4_2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div id="adventure-div">
+            <img id="adventure-img-1" src="resources/images/adventure_1.jpg">
+            <p id="adventure-text">when we go on adventures together</p>
+            <img id="adventure-img-2" src="resources/images/adventure_2.jpg">
+            <img id="adventure-img-3" src="resources/images/adventure_3.jpg">
+            <video autoplay muted loop id="adventure-mp4-1">
+                <source src="resources/images/adventure_mp4_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img id="adventure-img-4" src="resources/images/adventure_4.jpg">
+            <img id="adventure-img-5" src="resources/images/adventure_5.jpg">
+        </div>
+
+        <div id="lastbutnotleast-div">
+            <p id="lastbutnotleast-text">and last but not least...</p>
+        </div>
+
+        <div id="cuddles-div">
+            <p id="cuddles-text">cuddles hehe</p>
+        </div>
+
+        <div id="conclusion-div">
+            <p id="conclusion-text-1">i want to keep making more memories with you...</p>
+            <p id="conclusion-text-2">so i just wanted to ask...</p>
+        </div>
+
+        <div id="question-div">
+            <p id="question-text">will you be my partner :)</p>
+            <button id="yes-button" onclick="play('cheering');">yes</button>
+            <button id="no-button" onclick="play('booing');">naur</button>
+            <audio id="cheering" src="resources/sounds/cheering.mp3" preload="auto"></audio>
+            <audio id="booing" src="resources/sounds/booing.mp3" preload="auto"></audio>
+            <script>
+                function play(audioName) {
+                    var audio = document.getElementById(audioName);
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0
+                    }
+                }
+            </script>
+        </div>
 
 
     </div>
