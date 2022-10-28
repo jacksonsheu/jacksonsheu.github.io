@@ -465,16 +465,16 @@ body {
 
 #lastbutnotleast-div {
   background-color: #B59BC8;
-  height: 900px;
+  height: 600px;
   position: relative;
 }
 
 #lastbutnotleast-text {
   color: #F9E829;
   font-size: 45px;
-  width: 85%;
+  width: 80%;
   position: absolute;
-  left: 15%;
+  left: 10%;
   top: 200px;
   line-height: 0.9;
 }
